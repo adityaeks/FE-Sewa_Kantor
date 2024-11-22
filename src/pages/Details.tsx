@@ -1,4 +1,4 @@
-export default function CityDetails() {
+export default function Details() {
     return(
         <p>Tes halaman city details</p>
     );
