@@ -12,7 +12,7 @@ export default function BrowseOfficeWrapper() {
 
     useEffect(() => {
         axios
-            .get("http://127.0.0.1:8000/api/offices", {
+            .get(`http://127.0.0.1:8000/api/offices`, {
                 headers: {
                     "X-API-KEY": "qwed21c35asda21fa14",
                 },
